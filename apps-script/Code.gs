@@ -42,7 +42,7 @@ function doPost(e) {
 function bootstrap_() {
   ensureAppSheets_();
   const colleagues = readColleagues_();
-  return {ok:true,meta:{version:Utilities.formatDate(new Date(), Session.getScriptTimeZone() || 'Europe/London','yyyyMMddHHmmss'),source:'Google Sheets'},colleagues,availability:readAvailability_(colleagues),shifts:readRostering_(),regular:readTable_(CONFIG.sheets.regular),absences:readTable_(CONFIG.sheets.absences)};
+  return {ok:true,meta:{version:Utilities.formatDate(new Date(), Session.getScriptTimeZone() || 'Europe/London','yyyyMMddHHmmss'),source:'Google Sheets'},colleagues,availability:readAvailability_(colleagues),shifts:readRostering_(),regular:effectiveRegularShifts_(),absences:readTable_(CONFIG.sheets.absences)};
 }
 function ss_(){return CONFIG.spreadsheetId ? SpreadsheetApp.openById(CONFIG.spreadsheetId) : SpreadsheetApp.getActiveSpreadsheet();}
 function sheet_(name){
@@ -87,6 +87,24 @@ function ensureAppSheets_(){
 }
 function ensureSheet_(name,headers){let s=ss_().getSheetByName(name);if(!s)s=ss_().insertSheet(name);if(s.getLastRow()===0)s.getRange(1,1,1,headers.length).setValues([headers]);}
 function readTable_(name){const s=sheet_(name),v=s.getDataRange().getValues();if(v.length<2)return [];const h=v[0].map(norm_);return v.slice(1).filter(r=>r.some(x=>x!==''&&x!=null)).map(r=>{const o={};h.forEach((k,i)=>o[k]=r[i]);return o;});}
+
+function effectiveRegularShifts_(){
+  const explicit=readTable_(CONFIG.sheets.regular);
+  const byKey={};
+  explicit.forEach(r=>{if(String(r.Active==null?'true':r.Active).toLowerCase()!=='false')byKey[norm_(r.Day)+'|'+norm_(r.ShiftName)]={TillNumber:norm_(r.TillNumber),Day:norm_(r.Day),ShiftName:norm_(r.ShiftName),Active:true,Source:'RegularShifts'};});
+  const rows=readTable_(CONFIG.sheets.assignments).filter(r=>norm_(r.AssignedTillNumber)&&norm_(r.Day)&&norm_(r.ShiftName)&&date_(r.Date));
+  const groups={};
+  rows.forEach(r=>{const key=norm_(r.Day)+'|'+norm_(r.ShiftName), d=date_(r.Date);(groups[key]||(groups[key]=[])).push({date:d,till:norm_(r.AssignedTillNumber)});});
+  Object.keys(groups).forEach(key=>{
+    if(byKey[key])return;
+    const a=groups[key].sort((x,y)=>x.date.localeCompare(y.date));
+    for(let i=a.length-1;i>0;i--){
+      const d1=new Date(a[i-1].date+'T12:00:00'),d2=new Date(a[i].date+'T12:00:00'),gap=Math.round((d2-d1)/86400000);
+      if(gap===7&&a[i].till===a[i-1].till){const parts=key.split('|');byKey[key]={TillNumber:a[i].till,Day:parts[0],ShiftName:parts.slice(1).join('|'),Active:true,Source:'TwoConsecutiveWeeks'};break;}
+    }
+  });
+  return Object.values(byKey);
+}
 function saveAbsence_(b){ensureAppSheets_();const id='ABS-'+Utilities.getUuid().slice(0,8).toUpperCase();sheet_(CONFIG.sheets.absences).appendRow([id,norm_(b.tillNumber),norm_(b.type),date_(b.startDate),date_(b.endDate),norm_(b.status)||'Active',norm_(b.notes),new Date()]);return {ok:true,absenceId:id};}
 function saveRota_(b){
   ensureAppSheets_();const rotaId=norm_(b.rotaId)||('R-'+norm_(b.weekCommencing).replace(/-/g,'')),rotas=sheet_(CONFIG.sheets.rotas),as=sheet_(CONFIG.sheets.assignments);
