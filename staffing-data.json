@@ -1,0 +1,1242 @@
+{
+  "meta": {
+    "dataset": "Staffing(1).xlsx",
+    "version": "2026-10-06-test-01",
+    "source": "Workbook test fixture",
+    "generatedAt": "2026-10-06T05:45:00+01:00",
+    "testHourlyRate": 12
+  },
+  "colleagues": [
+    {
+      "id": "403",
+      "name": "Des",
+      "contract": 39,
+      "supervisor": false,
+      "skills": [
+        "Morning Cook",
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "344",
+      "name": "Christina",
+      "contract": 20,
+      "supervisor": true,
+      "skills": [
+        "Morning Cook",
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "269",
+      "name": "Richard",
+      "contract": 20,
+      "supervisor": false,
+      "skills": [
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "245",
+      "name": "Judith",
+      "contract": 8,
+      "supervisor": false,
+      "skills": [
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Close down"
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Debs",
+      "contract": 12,
+      "supervisor": false,
+      "skills": [
+        "Morning Cook",
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "247",
+      "name": "Trisha",
+      "contract": 16,
+      "supervisor": false,
+      "skills": [
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Close down"
+      ]
+    },
+    {
+      "id": "28",
+      "name": "William",
+      "contract": 12,
+      "supervisor": false,
+      "skills": [
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Close down"
+      ]
+    },
+    {
+      "id": "345",
+      "name": "Sean",
+      "contract": 8,
+      "supervisor": false,
+      "skills": [
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Close down"
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Edward",
+      "contract": 4,
+      "supervisor": false,
+      "skills": [
+        "Till",
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "id": "346",
+      "name": "Jayden",
+      "contract": 4,
+      "supervisor": false,
+      "skills": [
+        "Morning Cook",
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "347",
+      "name": "Emma",
+      "contract": 16,
+      "supervisor": false,
+      "skills": [
+        "Morning Cook",
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Eden",
+      "contract": 8,
+      "supervisor": false,
+      "skills": [
+        "Morning Cook",
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "262",
+      "name": "Jem",
+      "contract": 20,
+      "supervisor": false,
+      "skills": [
+        "Till",
+        "Wash up",
+        "Dining room",
+        "Close down"
+      ]
+    },
+    {
+      "id": "267",
+      "name": "Claire",
+      "contract": 20,
+      "supervisor": false,
+      "skills": [
+        "Morning Cook",
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Jess",
+      "contract": 4,
+      "supervisor": false,
+      "skills": [
+        "Till",
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "id": "250",
+      "name": "Kerry",
+      "contract": 12,
+      "supervisor": false,
+      "skills": [
+        "Morning Cook",
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room",
+        "Open up",
+        "Close down"
+      ]
+    },
+    {
+      "id": "111",
+      "name": "Kiana",
+      "contract": 4,
+      "supervisor": false,
+      "skills": [
+        "Evening Cook",
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Debs o",
+      "contract": 12,
+      "supervisor": false,
+      "skills": [
+        "Till",
+        "Wash up",
+        "Dining room",
+        "Close down"
+      ]
+    }
+  ],
+  "availability": {
+    "28": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "39": {
+      "Monday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Tuesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Wednesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Thursday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Friday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Saturday": {
+        "from": "08:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "08:00",
+        "until": "17:00"
+      }
+    },
+    "42": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "47": {
+      "Monday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "Off",
+        "until": "Off"
+      }
+    },
+    "48": {
+      "Monday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Tuesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Wednesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Thursday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Friday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Saturday": {
+        "from": "08:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "08:00",
+        "until": "17:00"
+      }
+    },
+    "52": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "111": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "245": {
+      "Monday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Tuesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Wednesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Thursday": {
+        "from": "16:00",
+        "until": "20:00"
+      },
+      "Friday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Saturday": {
+        "from": "07:00",
+        "until": "16:00"
+      },
+      "Sunday": {
+        "from": "Off",
+        "until": "Off"
+      }
+    },
+    "247": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "250": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "262": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "267": {
+      "Monday": {
+        "from": "06:00",
+        "until": "17:00"
+      },
+      "Tuesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "14:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "14:00"
+      },
+      "Friday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "15:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "15:00"
+      }
+    },
+    "269": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "344": {
+      "Monday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "15:00"
+      },
+      "Wednesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "15:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "15:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "15:00"
+      },
+      "Sunday": {
+        "from": "Off",
+        "until": "Off"
+      }
+    },
+    "345": {
+      "Monday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Tuesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Wednesday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Thursday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "346": {
+      "Monday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Tuesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Wednesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Thursday": {
+        "from": "15:00",
+        "until": "19:00"
+      },
+      "Friday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Saturday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Sunday": {
+        "from": "06:00",
+        "until": "19:00"
+      }
+    },
+    "347": {
+      "Monday": {
+        "from": "Sick",
+        "until": "Sick"
+      },
+      "Tuesday": {
+        "from": "Sick",
+        "until": "Sick"
+      },
+      "Wednesday": {
+        "from": "Sick",
+        "until": "Sick"
+      },
+      "Thursday": {
+        "from": "Sick",
+        "until": "Sick"
+      },
+      "Friday": {
+        "from": "Sick",
+        "until": "Sick"
+      },
+      "Saturday": {
+        "from": "Sick",
+        "until": "Sick"
+      },
+      "Sunday": {
+        "from": "Sick",
+        "until": "Sick"
+      }
+    },
+    "403": {
+      "Monday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Tuesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Wednesday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Thursday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Friday": {
+        "from": "06:00",
+        "until": "19:00"
+      },
+      "Saturday": {
+        "from": "Off",
+        "until": "Off"
+      },
+      "Sunday": {
+        "from": "Off",
+        "until": "Off"
+      }
+    }
+  },
+  "absences": [],
+  "regular": [],
+  "shifts": [
+    {
+      "day": "Monday",
+      "name": "Morning cook",
+      "start": "06:30",
+      "end": "14:00",
+      "skillsAny": [
+        "Morning Cook",
+        "Open up"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Morning cook",
+      "start": "06:30",
+      "end": "14:00",
+      "skillsAny": [
+        "Morning Cook",
+        "Open up"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Morning cook",
+      "start": "06:30",
+      "end": "14:00",
+      "skillsAny": [
+        "Morning Cook",
+        "Open up"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Morning cook",
+      "start": "06:30",
+      "end": "14:00",
+      "skillsAny": [
+        "Morning Cook",
+        "Open up"
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Morning cook",
+      "start": "06:30",
+      "end": "14:00",
+      "skillsAny": [
+        "Morning Cook",
+        "Open up"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Morning cook",
+      "start": "06:30",
+      "end": "14:00",
+      "skillsAny": [
+        "Morning Cook",
+        "Open up"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "name": "Morning cook",
+      "start": "08:00",
+      "end": "14:00",
+      "skillsAny": [
+        "Morning Cook",
+        "Open up"
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Morning Till / Plate up",
+      "start": "08:00",
+      "end": "15:00",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Morning Till / Plate up",
+      "start": "08:00",
+      "end": "15:00",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Morning Till / Plate up",
+      "start": "08:00",
+      "end": "15:00",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Morning Till / Plate up",
+      "start": "08:00",
+      "end": "15:00",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Morning Till / Plate up",
+      "start": "08:00",
+      "end": "15:00",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Morning Till / Plate up",
+      "start": "08:00",
+      "end": "15:00",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "name": "Morning Till / Plate up",
+      "start": "09:15",
+      "end": "16:15",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Lunch cover",
+      "start": "09:30",
+      "end": "15:15",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Lunch cover",
+      "start": "09:30",
+      "end": "15:15",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Lunch cover",
+      "start": "09:30",
+      "end": "15:15",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Lunch cover",
+      "start": "09:30",
+      "end": "15:15",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Lunch cover",
+      "start": "09:30",
+      "end": "15:15",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Lunch cover",
+      "start": "09:30",
+      "end": "15:15",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "name": "Lunch cover",
+      "start": "09:30",
+      "end": "15:15",
+      "skillsAny": [
+        "Till",
+        "Plate up"
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Clear down helper",
+      "start": "11:30",
+      "end": "17:15",
+      "skillsAny": [
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Clear down helper",
+      "start": "11:30",
+      "end": "17:15",
+      "skillsAny": [
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Clear down helper",
+      "start": "11:30",
+      "end": "17:15",
+      "skillsAny": [
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Clear down helper",
+      "start": "11:30",
+      "end": "17:15",
+      "skillsAny": [
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Clear down helper",
+      "start": "11:30",
+      "end": "17:15",
+      "skillsAny": [
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Clear down helper",
+      "start": "11:30",
+      "end": "17:15",
+      "skillsAny": [
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "name": "Clear down helper",
+      "start": "11:30",
+      "end": "17:15",
+      "skillsAny": [
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Extra cover",
+      "start": "10:00",
+      "end": "16:00",
+      "skillsAny": [
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "name": "Extra cover",
+      "start": "10:00",
+      "end": "16:00",
+      "skillsAny": [
+        "Till",
+        "Plate up",
+        "Wash up",
+        "Dining room"
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Close down No.1",
+      "start": "13:30",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Close down No.1",
+      "start": "13:30",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Close down No.1",
+      "start": "13:30",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Close down No.1",
+      "start": "13:30",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Close down No.1",
+      "start": "13:30",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Close down No.1",
+      "start": "13:30",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "name": "Close down No.1",
+      "start": "12:00",
+      "end": "17:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Monday",
+      "name": "Close down No.2",
+      "start": "14:45",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "name": "Close down No.2",
+      "start": "14:45",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "name": "Close down No.2",
+      "start": "14:45",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "name": "Close down No.2",
+      "start": "14:45",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Friday",
+      "name": "Close down No.2",
+      "start": "14:45",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Saturday",
+      "name": "Close down No.2",
+      "start": "14:45",
+      "end": "19:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    },
+    {
+      "day": "Sunday",
+      "name": "Close down No.2",
+      "start": "12:45",
+      "end": "17:00",
+      "skillsAny": [
+        "Close down"
+      ]
+    }
+  ]
+}
