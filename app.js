@@ -1,5 +1,5 @@
-const APP_VERSION='2026.10.06-live-02';
-const API_URL='https://script.google.com/macros/s/AKfycbzyPL_LOIgzOCBM0U4Lr1HCQsqCPZ_xg47Ry2bn7-AHiKWWRiwiAPIsM-hClqUSszje-g/exec';
+const APP_VERSION='2026.10.06-live-03';
+const API_URL='https://script.google.com/macros/s/AKfycbxgrRk0xCmjFFhUf7DFPWtVhUiXYhb_HqK0tNt9U1fVXPINNF4EGFzJns1LMkP3cCzLLw/exec';
 const DATA_URL=API_URL+'?action=bootstrap';
 const days=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 let data=null,assignments={},currentDataVersion='';
